@@ -85,7 +85,7 @@
 *******
 ```
 
-# Problem 5([1913](https://www.acmicpc.net/problem/1913))
+# Problem 5([B-1913](https://www.acmicpc.net/problem/1913))
 
 자연수 홀수 N이 주어질 때 아래와 같이 달팽이 모양으로 N \* N 의 배열을 출력하는 코드를 작성하세요.
 그리고 자연수 M이 주어질텐데 달팽이 모양 배열의 좌표를 출력하세요.
