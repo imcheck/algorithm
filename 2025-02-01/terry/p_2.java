@@ -1,6 +1,6 @@
-package study;
+package study.d_250201;
 import java.io.*;
-import java.util.*;
+
 public class p_2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
