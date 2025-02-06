@@ -1,4 +1,4 @@
-package study.d_250206;
+package study.problems;
 
 import java.util.*;
 import java.io.*;
@@ -34,7 +34,7 @@ public class p_3 {
         //then
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                bw.write(String.valueOf(reverse[i][j] + " "));
+                bw.write(reverse[i][j] + " ");
             }
             bw.newLine();
         }

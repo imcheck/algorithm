@@ -1,4 +1,4 @@
-package study.d_250206;
+package study.problems;
 
 import java.util.*;
 import java.io.*;
@@ -29,7 +29,7 @@ public class p_2 {
         //then
         int sum = 0;
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < m; j++) {
                 if (i == 0 || i == (n - 1) || j == 0 || j == (m - 1)) // i 혹은 j가 첫번째, 마지막 인덱스면 더함
                     sum += arr[i][j];
             }

@@ -1,4 +1,4 @@
-package study.d_250206;
+package study.problems;
 
 import java.util.*;
 import java.io.*;
@@ -10,7 +10,7 @@ public class p_1 {
 
         //given
         int n = Integer.parseInt(br.readLine());
-        int arr[][] = new int[n][n];
+        int[][] arr = new int[n][n];
 
 
         //when
@@ -25,11 +25,10 @@ public class p_1 {
         //then
         int sum = 0;
 
-        for(int i = 0; i<n; i++){
-            for(int j = 0; j < n; j++){
-                sum += arr[i][i]; // '\' 대각선 요소 합
+        for (int i = 0; i < n; i++) {
+            sum += arr[i][i]; // '\' 대각선 요소 합
+            if (i != (n - 1 - i)) // 겹치는 요소 제외
                 sum += arr[i][n - 1 - i]; // '/' 대각선 요소 합
-            }
         }
 
         bw.write(String.valueOf(sum));
